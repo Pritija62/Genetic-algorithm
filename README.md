@@ -6,10 +6,13 @@ this project demonstrates a genetic algorithm approach to find a solution for a 
 To run the genetic algorithm, execute the main script geneticalgo.ipynb. Ensure Python 3.x is installed on your system.
 
 ### Parameters
-##### CHROMOSOME_LENGTH: Total length of each chromosome .
-##### POPULATION_SIZE: Number of chromosomes in the population .
-##### MUTATION_RATE: Probability of mutation for each bit in an offspring .
-##### MAX_GENERATIONS: Maximum number of generations before termination .
+  CHROMOSOME_LENGTH: Total length of each chromosome .
+  
+  POPULATION_SIZE: Number of chromosomes in the population .
+
+  MUTATION_RATE: Probability of mutation for each bit in an offspring .
+  
+  MAX_GENERATIONS: Maximum number of generations before termination .
 
 ## Fitness Function
 The fitness function used in this implementation is defined as:

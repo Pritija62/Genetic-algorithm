@@ -40,7 +40,7 @@ Tournament selection is used to choose parents based on their fitness for reprod
 Uniform crossover is applied to create offspring by randomly selecting bits from two parents.
 
 ### Mutation: 
-Introduces variability by randomly flipping bits in offspring chromosomes. The mutation rate is set to 10% (MUTATION_RATE = 0.1).
+Introduces variability by randomly flipping bits in offspring chromosomes. The mutation rate is set to  (MUTATION_RATE = 0.5).
 
 ### Termination: 
 The algorithm terminates after a maximum of 10 generations (MAX_GENERATIONS = 10) or when a satisfactory solution is found.
